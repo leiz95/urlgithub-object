@@ -1,17 +1,17 @@
 {
-    "name": "urlgithub-to-object",
-    "version": "1.0.2",
+    "name": "urlgithub-object",
+    "version": "1.0.1",
     "description": "Extract user, repo, and other interesting properties from GitHub URLs",
     "main": "dist/commonjs.js",
     "scripts": {
         "test": "mocha && standard",
         "build": "browserify index.js --standalone gh | buble > dist/gh.js; buble index.js > dist/commonjs.js",
-        "deploy": "npm run build && git subtree push --prefix dist origin gh-pages && open https://github.com/leiz95/URLgithub-to-object.git"
+        "deploy": "npm run build && git subtree push --prefix dist origin gh-pages && open https://github.com/leiz95/URLgithub-object.git"
     },
-    "website": "https://github.com/leiz95/URLgithub-to-object.git",
+    "website": "https://github.com/leiz95/URLgithub-object.git",
     "repository": {
         "type": "git",
-        "url": "https://github.com/leiz95/URLgithub-to-object"
+        "url": "https://github.com/leiz95/URLgithub-object"
     },
     "keywords": [
         "github",
@@ -21,7 +21,7 @@
     "author": "leiz95",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/leiz95/URLgithub-to-object/issues"
+        "url": "https://github.com/leiz95/URLgithub-object/issues"
     },
     "dependencies": {
         "is-url": "^1.1.0",

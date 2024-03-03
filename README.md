@@ -3,7 +3,7 @@
 A module for node.js and browsers that extracts useful properties like `user`,
 `repo`, and `branch` from various flavors of GitHub URLs.
 
-There's also a Bitbucket equivalent to this library: [urlgithub-to-object](https://github.com/leiz95/urlgithub-to-object.git).
+There's also a Bitbucket equivalent to this library: [bitbucket-to-object](https://github.com/leiz95/URLBitbucket-to-object.git).
 
 
 ## Installation
@@ -11,13 +11,13 @@ There's also a Bitbucket equivalent to this library: [urlgithub-to-object](https
 For Node.js or Browserify usage:
 
 ```sh
-npm i urlgithub-to-object
+npm i urlgithub-object
 ```
 
 For bower usage:
 
 ```sh
-bower install urlgithub-to-object
+bower install urlgithub-object
 ```
 
 ## Usage
