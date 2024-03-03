@@ -25,7 +25,7 @@ bower install urlgithub-object
 Use whatever flavor of GitHub URL you like:
 
 ```js
-const gh = require('urlgithub-to-object')
+const gh = require('urlgithub-object')
 
 gh('github:example/business')
 gh('https://github.com/example/business')
